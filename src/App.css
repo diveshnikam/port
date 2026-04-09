@@ -1,0 +1,185 @@
+
+.skill-box {
+  font-size: 1.15rem;
+  font-weight: 500;
+  padding: 12px 18px;
+  background-color: #f8f9fa;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.25s ease,
+              box-shadow 0.25s ease,
+              border-color 0.25s ease,
+              background-color 0.25s ease;
+}
+
+.skill-box:hover {
+  transform: translateY(-5px) scale(1.05);
+  background-color: #ffffff;
+  border-color: green;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+
+.connect-box {
+  padding: 25px;
+  height: 130px;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  background-color: white;
+  transition: transform 0.25s ease,
+              box-shadow 0.25s ease,
+              border-color 0.25s ease;
+  cursor: pointer;
+}
+
+.connect-box:hover {
+  transform: translateY(-6px) scale(1.02);
+  border-color: green;
+  box-shadow: 0 10px 25px rgba(0, 128, 0, 0.15);
+}
+
+.connect-icon {
+  font-size: 1.8rem;
+  color: green;
+}
+
+.connect-box-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.project-card {
+  padding: 15px;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  background-color: white;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  cursor: pointer;
+}
+
+.project-card h4 {
+  min-height: 48px; 
+}
+
+.project-card p.text-muted.small {
+  min-height: 60px; 
+}
+
+.project-card a {
+  margin-top: auto; 
+}
+
+.project-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  border-color: green;
+  box-shadow: 0 10px 25px rgba(0, 128, 0, 0.15);
+}
+
+.project-img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #e5e5e5;
+}
+
+.project-link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-decoration-line: underline;
+  text-decoration-color: green;
+  text-decoration-thickness: 3px;   
+  text-underline-offset: 5px;       
+  color: green;
+}
+
+
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.8rem !important;
+  }
+  h2 {
+    font-size: 1.4rem !important;
+  }
+  h3 {
+    font-size: 1.2rem !important;
+  }
+  h4 {
+    font-size: 1rem !important;
+  }
+  h5 {
+    font-size: 0.9rem !important;
+  }
+  h6,
+  p,
+  a,
+  li,
+  span {
+    font-size: 0.85rem !important;
+  }
+
+  
+  button,
+  .btn {
+    padding: 0.45rem 1rem !important;
+    font-size: 0.9rem !important;
+  }
+
+  
+  .project-card {
+    padding: 0.8rem !important;
+  }
+
+  
+  .skill-box {
+    font-size: 0.85rem !important;
+    padding: 0.4rem 0.7rem !important;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.2rem !important;
+  }
+  h2 {
+    font-size: 1.75rem !important;
+  }
+  h3 {
+    font-size: 1.4rem !important;
+  }
+
+  p,
+  a,
+  li {
+    font-size: 0.95rem !important;
+  }
+
+  .project-img {
+    height: auto !important;
+  }
+}
+
+
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 2.8rem !important;
+  }
+  h2 {
+    font-size: 2.2rem !important;
+  }
+  h3 {
+    font-size: 1.6rem !important;
+  }
+
+  .btn {
+    font-size: 1rem !important;
+  }
+}
