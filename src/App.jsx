@@ -29,7 +29,7 @@ function App() {
             </h1>
 
             <h3 className="fw-semibold text-muted mb-3">
-              Full Stack Developer
+              MERN Stack Developer
             </h3>
 
             <div
@@ -46,7 +46,7 @@ function App() {
 
             <div className="lead fw-light text-dark mb-4 mt-5">
               <p>
-                Passionate full-stack developer crafting intuitive digital
+                Passionate MERN stack developer crafting intuitive digital
                 experiences with modern tools. Always eager to learn, build, and
                 explore new ideas.
               </p>
@@ -68,7 +68,7 @@ function App() {
               </button>
 
               <a
-                href="https://drive.google.com/file/d/1xELjm-fBCnSlvc3nLHu3VXqg3wJWtThv/view?usp=sharing"
+                href="https://drive.google.com/file/d/1U1DqlhXboyEEPDdiQEolm0sXOoezzZdY/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-outline-secondary px-4 py-2 fw-semibold"
