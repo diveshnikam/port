@@ -68,7 +68,7 @@ function App() {
               </button>
 
               <a
-                href="https://drive.google.com/file/d/1o-joTNmwtR9inx0NpRoq9O_Mx8uyrELk/view?usp=sharing"
+                href="https://drive.google.com/file/d/1X1NXlj9pyUTqt0JU4gYdpAeJsi__2vOg/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-outline-secondary px-4 py-2 fw-semibold"
@@ -319,7 +319,7 @@ function App() {
                     <i className="bi bi-envelope-fill connect-icon"></i>
                     <h4 className="m-0">Email</h4>
                   </div>
-                  <p className="text-muted mb-0">divesh.nikam@gmail.com</p>
+                  <p className="text-muted mb-0">diveshnikam4545@gmail.com</p>
                 </div>
               </a>
             </div>
